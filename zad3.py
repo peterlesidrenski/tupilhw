@@ -1,6 +1,7 @@
-tuple1 = tuple(map(int, input().split()))
-tuple2 = tuple(map(int, input().split()))
-if len(tuple1) == len(tuple2):
-    print(" е равна")
-else:
-    print("не е равна")
+numbers = tuple(map(int, input().split()))
+max_number = max(numbers)
+min_number = min(numbers)
+difference = max_number - min_number
+print(f"max {max_number}")
+print(f"min {min_number}")
+print(f"difference {difference}")
